@@ -270,11 +270,32 @@ nav li:first-child a {
 
 .photo {
     float: left;
-    margin: 15px 32px;
+    
     height: 242px;
     padding: 6px;
     border: 1px solid rgba(0, 139, 54, 0.15);
     background-color: #8EBD61;
+    
+}
+
+.photo-container{
+    float:left;
+    clear: both;
+    margin: 10px 20px;
+    margin-left: 0px;
+}
+
+.photo-container.horizontal{
+    float: left;
+    clear: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: -5px;
+}
+
+.photo-name{
+    display:block;
+    text-align:center;
 }
 
 .date{
@@ -294,6 +315,8 @@ nav li:first-child a {
    background-repeat: no-repeat;
    height: 450px;
    margin: 0 auto;
+   position: relative;
+   overflow: visible;
 }
 
 .navigation>li:not([class^="sub-"]):before{
@@ -343,4 +366,226 @@ li#m8:before{
 
 li#m9:before{
     background: url('/img/menu_sprites.png') no-repeat 0px -121px;    
+
+}
+footer{
+    height: 200px;
+}
+
+#banner{
+    background: url("/img/banner.png") no-repeat 244px 224px;
+    height: 450px;
+}
+#tt {
+    background: url("/img/tt.png") no-repeat 0px 0px;
+
+    -webkit-animation: changetext 13s linear 0s infinite;
+    -moz-animation: changetext 13s linear 0s infinite;
+    -ms-animation: changetext 13s linear 0s infinite;
+    -o-animation: changetext 13s linear 0s infinite;
+    animation: changetext 13s linear 0s infinite;
+    position: absolute;
+    height: 61px;
+    top: 210px;
+    left: 328px;
+}
+
+@keyframes "changetext" {
+ 0% {
+    background-position: 0px 0px;
+    width: 402px;
+ }
+ 40% {
+    background-position: 0px 0px;
+    width: 402px;
+ }
+ 45% {
+    background-position: 0px 0px;
+    width: 0;
+ }
+ 46% {
+    background-position: 0px -61px;
+    width: 0;
+ }
+ 50% {
+    background-position: 0px -61px;
+    width: 266px;
+ }
+ 90% {
+    background-position: 0px -61px;
+    width: 266px;
+ }
+ 95% {
+    background-position: 0px -61px;
+    width: 0px;
+ }
+ 96% {
+    background-position: 0px 0px;
+    width: 0;
+ }
+ 100% {
+    background-position: 0px 0px;
+    width: 402px;
+ }
+
+}
+
+@-moz-keyframes changetext {
+ 0% {
+   background-position: 0px 0px;
+   width: 402px;
+ }
+ 40% {
+   background-position: 0px 0px;
+   width: 402px;
+ }
+ 45% {
+   background-position: 0px 0px;
+   width: 0;
+ }
+ 46% {
+   background-position: 0px -61px;
+   width: 0;
+ }
+ 50% {
+   background-position: 0px -61px;
+   width: 266px;
+ }
+ 90% {
+   background-position: 0px -61px;
+   width: 266px;
+ }
+ 95% {
+   background-position: 0px -61px;
+   width: 0px;
+ }
+ 96% {
+   background-position: 0px 0px;
+   width: 0;
+ }
+ 100% {
+   background-position: 0px 0px;
+   width: 402px;
+ }
+
+}
+
+@-webkit-keyframes "changetext" {
+ 0% {
+   background-position: 0px 0px;
+   width: 402px;
+ }
+ 40% {
+   background-position: 0px 0px;
+   width: 402px;
+ }
+ 45% {
+   background-position: 0px 0px;
+   width: 0;
+ }
+ 46% {
+   background-position: 0px -61px;
+   width: 0;
+ }
+ 50% {
+   background-position: 0px -61px;
+   width: 266px;
+ }
+ 90% {
+   background-position: 0px -61px;
+   width: 266px;
+ }
+ 95% {
+   background-position: 0px -61px;
+   width: 0px;
+ }
+ 96% {
+   background-position: 0px 0px;
+   width: 0;
+ }
+ 100% {
+   background-position: 0px 0px;
+   width: 402px;
+ }
+
+}
+
+@-ms-keyframes "changetext" {
+ 0% {
+   background-position: 0px 0px;
+   width: 402px;
+ }
+ 40% {
+   background-position: 0px 0px;
+   width: 402px;
+ }
+ 45% {
+   background-position: 0px 0px;
+   width: 0;
+ }
+ 46% {
+   background-position: 0px -61px;
+   width: 0;
+ }
+ 50% {
+   background-position: 0px -61px;
+   width: 266px;
+ }
+ 90% {
+   background-position: 0px -61px;
+   width: 266px;
+ }
+ 95% {
+   background-position: 0px -61px;
+   width: 0px;
+ }
+ 96% {
+   background-position: 0px 0px;
+   width: 0;
+ }
+ 100% {
+   background-position: 0px 0px;
+   width: 402px;
+ }
+
+}
+
+@-o-keyframes "changetext" {
+ 0% {
+   background-position: 0px 0px;
+   width: 402px;
+ }
+ 40% {
+   background-position: 0px 0px;
+   width: 402px;
+ }
+ 45% {
+   background-position: 0px 0px;
+   width: 0;
+ }
+ 46% {
+   background-position: 0px -61px;
+   width: 0;
+ }
+ 50% {
+   background-position: 0px -61px;
+   width: 266px;
+ }
+ 90% {
+   background-position: 0px -61px;
+   width: 266px;
+ }
+ 95% {
+   background-position: 0px -61px;
+   width: 0px;
+ }
+ 96% {
+   background-position: 0px 0px;
+   width: 0;
+ }
+ 100% {
+   background-position: 0px 0px;
+   width: 402px;
+ }
+
 }

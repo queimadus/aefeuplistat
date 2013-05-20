@@ -46,6 +46,7 @@ function tabs()
 		        
 		    if (!($toSlide.hasClass("active")))
 		    {   
+		    	$(".main-container").css("min-height",$toSlide.height()<950?950:$toSlide.height());
 		        $fromSlide.animate({"left":"-100%"},300,'linear')
 		        $toSlide.animate({"left":"0%"},300,'linear',function()
 		        {    
@@ -73,6 +74,8 @@ function tabs()
 */
 $(window).on('popstate', function() {
 	  var anchor = location.hash || "#";
+	  var h = $(".content.active").height();
+	  $(".main-container").css("min-height",h<950?950:h);
 	  if(anchor != null){
 	  	var t = $('a[href=' + anchor + ']');
 	  	if(t.text()=="Lista T")
