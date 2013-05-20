@@ -372,6 +372,13 @@ footer{
     height: 200px;
 }
 
+.photo-role{
+    color: #376D35;
+    text-align: center;
+    display: block;
+    font-weight: 300;
+}
+
 #banner{
     background: url("/img/banner.png") no-repeat 244px 224px;
     height: 450px;
