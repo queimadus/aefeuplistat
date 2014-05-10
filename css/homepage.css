@@ -49,7 +49,7 @@ nav li:first-child a {
 #homepage .hero-back {
     background-color: #008b36;
     min-height: 450px;
-    background-image: url(img/bg.png);
+    background-image: url(../img/bg.png);
 }
 
 #homepage .main {
@@ -310,7 +310,7 @@ nav li:first-child a {
 }
 
 #logo{
-   background-image:url("img/logo.png"); 
+   background-image:url("../img/logo.png"); 
    width: 960px;
    background-repeat: no-repeat;
    height: 450px;
@@ -324,7 +324,11 @@ nav li:first-child a {
     position: absolute;
     top: 7px;
     left: -24px;
+<<<<<<< HEAD
     background: url('img/menu_sprites.png') no-repeat -1px 0;
+=======
+    background: url('../img/menu_sprites.png') no-repeat -1px 0;
+>>>>>>> fix css img path
     width: 16px;
     height: 16px;
     
@@ -332,6 +336,7 @@ nav li:first-child a {
 }
 
 li#m1:before{
+<<<<<<< HEAD
     background: url('img/menu_sprites.png') no-repeat 0px 0;    
 }
 
@@ -341,10 +346,22 @@ li#m2:before{
 
 li#m3:before{
     background: url('img/menu_sprites.png') no-repeat 0 -31px;
+=======
+    background: url('../img/menu_sprites.png') no-repeat 0px 0;    
+}
+
+li#m2:before{
+    background: url('../img/menu_sprites.png') no-repeat 0px -15px;    
+}
+
+li#m3:before{
+    background: url('../img/menu_sprites.png') no-repeat 0 -31px;
+>>>>>>> fix css img path
     height: 14px;
 }
 
 li#m4:before{
+<<<<<<< HEAD
     background: url('img/menu_sprites.png') no-repeat 0px -45px; 
 }
 
@@ -366,6 +383,29 @@ li#m8:before{
 
 li#m9:before{
     background: url('img/menu_sprites.png') no-repeat 0px -121px;    
+=======
+    background: url('../img/menu_sprites.png') no-repeat 0px -45px; 
+}
+
+li#main-educativa:before{
+     background: url('../img/menu_sprites.png') no-repeat 0px -61px; 
+}
+
+li#main-atividades:before{
+     background: url('../img/menu_sprites.png') no-repeat 0px -75px; 
+}
+
+li#main-admin:before{
+     background: url('../img/menu_sprites.png') no-repeat 0px -90px; 
+}
+
+li#m8:before{
+    background: url('../img/menu_sprites.png') no-repeat -1px -106px;    
+}
+
+li#m9:before{
+    background: url('../img/menu_sprites.png') no-repeat 0px -121px;    
+>>>>>>> fix css img path
 
 }
 footer{
@@ -380,11 +420,11 @@ footer{
 }
 
 #banner{
-    background: url("img/banner.png") no-repeat 244px 224px;
+    background: url("../img/banner.png") no-repeat 244px 224px;
     height: 450px;
 }
 #tt {
-    background: url("img/tt.png") no-repeat 0px 0px;
+    background: url("../img/tt.png") no-repeat 0px 0px;
 
     -webkit-animation: changetext 13s linear 0s infinite;
     -moz-animation: changetext 13s linear 0s infinite;
